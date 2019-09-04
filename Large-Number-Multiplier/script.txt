@@ -1,0 +1,102 @@
+Script started on Fri 14 Oct 2016 02:40:45 PM MDT
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ gdb output.out[14@cc assign2a.s -o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pdb[C[C[C[C[C[C[C[C[C[C[C
+GNU gdb (GDB) Fedora 7.11.1-75.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from output.out...(no debugging symbols found)...done.
+(gdb) break main
+Breakpoint 1 at 0x400658
+(gdb) break done
+Breakpoint 2 at 0x4006a8
+(gdb) break end
+Breakpoint 3 at 0x4006c4
+(gdb) run
+Starting program: /home/ugc/adam.berlak/output.out 
+
+Breakpoint 1, 0x0000000000400658 in main ()
+(gdb) display [K/i $pc
+1: x/i $pc
+=> 0x400658 <main+40>:	bl	0x400460 <printf@plt>
+(gdb) ni
+multiplier = 0xf0000000 (50) multiplicand = 0x00400630 (-2960) 
+ 
+0x000000000040065c in main ()
+1: x/i $pc
+=> 0x40065c <main+44>:	cmp	w19, #0x0
+(gdb) print $w19
+$1 = 50
+(gdb) print $w19[K[K20
+$2 = 4026531840
+(gdb) print $w20[K1
+$3 = 0
+(gdb) continue
+Continuing.
+
+Breakpoint 2, 0x00000000004006a8 in done ()
+1: x/i $pc
+=> 0x4006a8 <done>:	tst	w23, #0x1
+(gdb) continue[C[C[C[C[C[Cprint $w21[K[K19
+$4 = 3758096384
+(gdb) print $w19[K[K20
+$5 = 4026531840
+(gdb) print $w20[K1
+$6 = 4294967292
+(gdb) continue
+Continuing.
+
+Breakpoint 3, 0x00000000004006c4 in end ()
+1: x/i $pc
+=> 0x4006c4 <end+16>:	bl	0x400460 <printf@plt>
+(gdb) ni
+product = 0xfffffffc  multiplier = 0xe0000000 
+0x00000000004006c8 in end ()
+1: x/i $pc
+=> 0x4006c8 <end+20>:	sxtw	x21, w21
+(gdb) ni
+0x00000000004006cc in end ()
+1: x/i $pc
+=> 0x4006cc <end+24>:	and	x25, x21, #0xffffffff
+(gdb) ni
+0x00000000004006d0 in end ()
+1: x/i $pc
+=> 0x4006d0 <end+28>:	lsl	x25, x25, #32
+(gdb) ni
+0x00000000004006d4 in end ()
+1: x/i $pc
+=> 0x4006d4 <end+32>:	sxtw	x19, w19
+(gdb) ni
+0x00000000004006d8 in end ()
+1: x/i $pc
+=> 0x4006d8 <end+36>:	and	x26, x19, #0xffffffff
+(gdb) ni
+0x00000000004006dc in end ()
+1: x/i $pc
+=> 0x4006dc <end+40>:	add	x24, x25, x26
+(gdb) ni
+0x00000000004006e0 in end ()
+1: x/i $pc
+=> 0x4006e0 <end+44>:	adrp	x0, 0x400000
+(gdb) print[K[K[K[Krint $24
+History has not yet reached $24.
+(gdb) print $24[K[Kx24
+$7 = -13421772800
+(gdb) continue
+Continuing.
+64-bit result = 0xfffffffce0000000 (1)
+[Inferior 1 (process 18999) exited with code 047]
+(gdb) quit
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ exit
+exit
+
+Script done on Fri 14 Oct 2016 02:44:29 PM MDT
