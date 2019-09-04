@@ -1,0 +1,254 @@
+Script started on Mon 14 Nov 2016 03:00:23 PM MST
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ exitgdb output4.outnano assign4simple.s[5Pgdb output4.out
+GNU gdb (GDB) Fedora 7.11.1-86.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from output4.out...(no debugging symbols found)...done.
+(gdb) break printSphere
+Breakpoint 1 at 0x400744
+(gdb) break newSphere
+Breakpoint 2 at 0x4006e0
+(gdb) break move
+Breakpoint 3 at 0x400848
+(gdb) run
+Starting program: /home/ugc/adam.berlak/output4.out 
+
+Breakpoint 2, 0x00000000004006e0 in newSphere ()
+(gdb) display/i $pc
+1: x/i $pc
+=> 0x4006e0 <newSphere+24>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x00000000004006e4 in newSphere ()
+1: x/i $pc
+=> 0x4006e4 <newSphere+28>:	str	w10, [x9]
+(gdb) ni
+0x00000000004006e8 in newSphere ()
+1: x/i $pc
+=> 0x4006e8 <newSphere+32>:	mov	w10, #0x0                   	// #0
+(gdb) ni
+0x00000000004006ec in newSphere ()
+1: x/i $pc
+=> 0x4006ec <newSphere+36>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x00000000004006f0 in newSphere ()
+1: x/i $pc
+=> 0x4006f0 <newSphere+40>:	str	w10, [x9,#4]
+(gdb) ni
+0x00000000004006f4 in newSphere ()
+1: x/i $pc
+=> 0x4006f4 <newSphere+44>:	mov	w10, #0x0                   	// #0
+(gdb) ni
+0x00000000004006f8 in newSphere ()
+1: x/i $pc
+=> 0x4006f8 <newSphere+48>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x00000000004006fc in newSphere ()
+1: x/i $pc
+=> 0x4006fc <newSphere+52>:	str	w10, [x9,#8]
+(gdb) ni
+0x0000000000400700 in newSphere ()
+1: x/i $pc
+=> 0x400700 <newSphere+56>:	mov	w10, #0x0                   	// #0
+(gdb) ni
+0x0000000000400704 in newSphere ()
+1: x/i $pc
+=> 0x400704 <newSphere+60>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x0000000000400708 in newSphere ()
+1: x/i $pc
+=> 0x400708 <newSphere+64>:	str	w10, [x9,#12]
+(gdb) ni
+0x000000000040070c in newSphere ()
+1: x/i $pc
+=> 0x40070c <newSphere+68>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x0000000000400710 in newSphere ()
+1: x/i $pc
+=> 0x400710 <newSphere+72>:	mov	x0, x9
+(gdb) ni
+0x0000000000400714 in newSphere ()
+1: x/i $pc
+=> 0x400714 <newSphere+76>:	add	sp, sp, #0x40
+(gdb) ni
+0x0000000000400718 in newSphere ()
+1: x/i $pc
+=> 0x400718 <newSphere+80>:	ldp	x29, x30, [sp],#16
+(gdb) ni
+0x000000000040071c in newSphere ()
+1: x/i $pc
+=> 0x40071c <newSphere+84>:	ret
+(gdb) ni
+0x0000000000400628 in main ()
+1: x/i $pc
+=> 0x400628 <main+20>:	mov	x21, x0
+(gdb) continue
+Continuing.
+
+Breakpoint 2, 0x00000000004006e0 in newSphere ()
+1: x/i $pc
+=> 0x4006e0 <newSphere+24>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x00000000004006e4 in newSphere ()
+1: x/i $pc
+=> 0x4006e4 <newSphere+28>:	str	w10, [x9]
+(gdb) ni
+0x00000000004006e8 in newSphere ()
+1: x/i $pc
+=> 0x4006e8 <newSphere+32>:	mov	w10, #0x0                   	// #0
+(gdb) ni
+0x00000000004006ec in newSphere ()
+1: x/i $pc
+=> 0x4006ec <newSphere+36>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x00000000004006f0 in newSphere ()
+1: x/i $pc
+=> 0x4006f0 <newSphere+40>:	str	w10, [x9,#4]
+(gdb) ni
+0x00000000004006f4 in newSphere ()
+1: x/i $pc
+=> 0x4006f4 <newSphere+44>:	mov	w10, #0x0                   	// #0
+(gdb) ni
+0x00000000004006f8 in newSphere ()
+1: x/i $pc
+=> 0x4006f8 <newSphere+48>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x00000000004006fc in newSphere ()
+1: x/i $pc
+=> 0x4006fc <newSphere+52>:	str	w10, [x9,#8]
+(gdb) ni
+0x0000000000400700 in newSphere ()
+1: x/i $pc
+=> 0x400700 <newSphere+56>:	mov	w10, #0x0                   	// #0
+(gdb) ni
+0x0000000000400704 in newSphere ()
+1: x/i $pc
+=> 0x400704 <newSphere+60>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x0000000000400708 in newSphere ()
+1: x/i $pc
+=> 0x400708 <newSphere+64>:	str	w10, [x9,#12]
+(gdb) ni
+0x000000000040070c in newSphere ()
+1: x/i $pc
+=> 0x40070c <newSphere+68>:	ldur	x9, [x29,#-64]
+(gdb) ni
+0x0000000000400710 in newSphere ()
+1: x/i $pc
+=> 0x400710 <newSphere+72>:	mov	x0, x9
+(gdb) ni
+0x0000000000400714 in newSphere ()
+1: x/i $pc
+=> 0x400714 <newSphere+76>:	add	sp, sp, #0x40
+(gdb) ni
+0x0000000000400718 in newSphere ()
+1: x/i $pc
+=> 0x400718 <newSphere+80>:	ldp	x29, x30, [sp],#16
+(gdb) ni
+0x000000000040071c in newSphere ()
+1: x/i $pc
+=> 0x40071c <newSphere+84>:	ret
+(gdb) ni
+0x000000000040063c in main ()
+1: x/i $pc
+=> 0x40063c <main+40>:	mov	x22, x0
+(gdb) cibt[K[K[Kontinue
+Continuing.
+
+Initial sphere values: 
+
+Breakpoint 1, 0x0000000000400744 in printSphere ()
+1: x/i $pc
+=> 0x400744 <printSphere+36>:	ldur	w9, [x29,#-96]
+(gdb) continue
+Continuing.
+Sphere 1 origin = (0, 0, 0) radius = 1
+
+Breakpoint 1, 0x0000000000400744 in printSphere ()
+1: x/i $pc
+=> 0x400744 <printSphere+36>:	ldur	w9, [x29,#-96]
+(gdb) o[Kcontinue
+Continuing.
+Sphere 2 origin = (0, 0, 0) radius = 1
+
+Breakpoint 3, 0x0000000000400848 in move ()
+1: x/i $pc
+=> 0x400848 <move+24>:	ldr	w9, [x13,#4]
+(gdb) ni
+0x000000000040084c in move ()
+1: x/i $pc
+=> 0x40084c <move+28>:	add	w9, w10, w9
+(gdb) ni
+0x0000000000400850 in move ()
+1: x/i $pc
+=> 0x400850 <move+32>:	str	w9, [x13,#4]
+(gdb) ni
+0x0000000000400854 in move ()
+1: x/i $pc
+=> 0x400854 <move+36>:	ldr	w9, [x13,#8]
+(gdb) ni
+0x0000000000400858 in move ()
+1: x/i $pc
+=> 0x400858 <move+40>:	add	w9, w11, w9
+(gdb) ni
+0x000000000040085c in move ()
+1: x/i $pc
+=> 0x40085c <move+44>:	str	w9, [x13,#8]
+(gdb) ni
+0x0000000000400860 in move ()
+1: x/i $pc
+=> 0x400860 <move+48>:	ldr	w9, [x13,#12]
+(gdb) ni
+0x0000000000400864 in move ()
+1: x/i $pc
+=> 0x400864 <move+52>:	add	w9, w12, w9
+(gdb) ni
+0x0000000000400868 in move ()
+1: x/i $pc
+=> 0x400868 <move+56>:	str	w9, [x13,#12]
+(gdb) ni
+0x000000000040086c in move ()
+1: x/i $pc
+=> 0x40086c <move+60>:	ldp	x29, x30, [sp],#16
+(gdb) ni
+0x0000000000400870 in move ()
+1: x/i $pc
+=> 0x400870 <move+64>:	ret
+(gdb) ni
+0x0000000000400690 in main ()
+1: x/i $pc
+=> 0x400690 <main+124>:	add	x0, x29, #0x20
+(gdb) coni[Ktinue
+Continuing.
+
+Changed sphere values: 
+
+Breakpoint 1, 0x0000000000400744 in printSphere ()
+1: x/i $pc
+=> 0x400744 <printSphere+36>:	ldur	w9, [x29,#-96]
+(gdb) continue
+Continuing.
+Sphere 1 origin = (-5, 3, 2) radius = 1
+
+Breakpoint 1, 0x0000000000400744 in printSphere ()
+1: x/i $pc
+=> 0x400744 <printSphere+36>:	ldur	w9, [x29,#-96]
+(gdb) co[Kontinue
+Continuing.
+Sphere 2 origin = (0, 0, 0) radius = 8
+[Inferior 1 (process 10235) exited with code 047]
+(gdb) u[Kquit[K[K[K[Kquit
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ exit
+exit
+
+Script done on Mon 14 Nov 2016 03:02:13 PM MST
