@@ -1,0 +1,173 @@
+Script started on Fri 25 Nov 2016 11:26:12 AM MST
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ exitgcc -c myMain.cexit[Kgcc -c myMain.c1myMain.c5myMain.c1myMain.c[1PmyMain.c[1PmyMain.c[1PmyMain.camyMain.c5myMain.camyMain.c[C[C[1PMain.c[1PMain.c
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ as a5a.s 0o[K[K-o a5a.o
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ gcc a5aMian[K[K[Kain.c[Ko a5a.o -0[Ko myprog
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ ./myprog
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be pushed: 2
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 3
+
+Current stack contents:
+2<-- top of stack
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be pushed: 3
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 3
+
+Current stack contents:
+3<-- top of stack
+2
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be pushed: 4
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be pushed: 6
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be pushed: 3
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be pushed: 8
+
+Stack overflow! Cannot push value onto stack.
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 13
+
+Invalid option! Try again.
+
+Press the return key to continue . . . 1 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 3
+
+Current stack contents:
+3<-- top of stack
+6
+4
+3
+2
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 2
+
+Popped value is 3
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 2
+
+Popped value is 6
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 2
+
+Popped value is 4
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 3
+
+Current stack contents:
+3<-- top of stack
+2
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 2
+
+Popped value is 3
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 2
+
+Popped value is 2
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 2
+
+Stack underflow! Cannot pop an empty stack.
+
+Popped value is 45
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 3
+
+Empty stack
+
+Press the return key to continue . . . 
+[3J[H[2J### Stack Operations ###
+
+Press 1 - Push, 2 - Pop, 3 - Display, 4 - Exit
+Your option? 4
+
+Terminating program
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ exit
+exit
+
+Script done on Fri 25 Nov 2016 11:28:53 AM MST
