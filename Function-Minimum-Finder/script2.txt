@@ -1,0 +1,35 @@
+Script started on Sun 02 Oct 2016 05:46:10 PM MDT
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ exitnano assign1bsave.s[4Pgdb output2.out[14@cc assign1b.s -o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pm4 assign1b.asm > assign1b.s
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ m4 assign1b.asm > assign1b.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Knano assign1bsave.s[4Pgdb output2.out[14@cc assign1b.s -o[C[C[C[C[C[C[C[C[C[C[C[C
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ gcc assign1b.s -o output2.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pm4 assign1b.asm > assign1b.s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Knano assign1bsave.s[4Pgdb output2.out
+GNU gdb (GDB) Fedora 7.11.1-75.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from output2.out...(no debugging symbols found)...done.
+(gdb) break done
+Breakpoint 1 at 0x400658
+(gdb) run
+Starting program: /home/ugc/adam.berlak/output2.out 
+
+Breakpoint 1, 0x0000000000400658 in done ()
+(gdb) print $24[K[Kx24
+$1 = -43
+(gdb) continue
+Continuing.
+Minimum value is y = -43, and x is = 0[Inferior 1 (process 6199) exited with code 046]
+(gdb) ex[K[Kquit
+]0;adam.berlak@csa3:~[adam.berlak@csa3 ~]$ exit
+exit
+
+Script done on Sun 02 Oct 2016 05:47:10 PM MDT
