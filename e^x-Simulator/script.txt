@@ -1,0 +1,433 @@
+Script started on Thu 08 Dec 2016 04:16:54 PM MST
+]0;adam.berlak@csa2:~[adam.berlak@csa2 ~]$ gdb output.out
+GNU gdb (GDB) Fedora 7.11.1-86.fc24
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from output.out...(no debugging symbols found)...done.
+(gdb) run
+Starting program: /home/ugc/adam.berlak/output.out 
+
+Input number is: 0.000000, e^x Output Number is: 1.000000
+
+Input number is: 0.000000, e^-x Output Number is: 1.000000
+
+Input number is: 0.000000, e^x Output Number is: 1.000000
+
+Input number is: 0.000000, e^-x Output Number is: 1.000000
+
+Input number is: 0.100000, e^x Output Number is: 1.105171
+
+Input number is: 0.100000, e^-x Output Number is: 0.904837
+
+Input number is: 0.200000, e^x Output Number is: 1.221403
+
+Input number is: 0.200000, e^-x Output Number is: 0.818731
+
+Input number is: 0.300000, e^x Output Number is: 1.349859
+
+Input number is: 0.300000, e^-x Output Number is: 0.740818
+
+Input number is: 0.400000, e^x Output Number is: 1.491825
+
+Input number is: 0.400000, e^-x Output Number is: 0.670320
+
+Input number is: 0.500000, e^x Output Number is: 1.648721
+
+Input number is: 0.500000, e^-x Output Number is: 0.606531
+
+Input number is: 0.600000, e^x Output Number is: 1.822119
+
+Input number is: 0.600000, e^-x Output Number is: 0.548812
+
+Input number is: 0.700000, e^x Output Number is: 2.013753
+
+Input number is: 0.700000, e^-x Output Number is: 0.496585
+
+Input number is: 0.800000, e^x Output Number is: 2.225541
+
+Input number is: 0.800000, e^-x Output Number is: 0.449329
+
+Input number is: 0.900000, e^x Output Number is: 2.459603
+
+Input number is: 0.900000, e^-x Output Number is: 0.406570
+
+Input number is: 1.000000, e^x Output Number is: 2.718282
+
+Input number is: 1.000000, e^-x Output Number is: 0.367879
+
+Input number is: 1.100000, e^x Output Number is: 3.004166
+
+Input number is: 1.100000, e^-x Output Number is: 0.332871
+
+Input number is: 1.200000, e^x Output Number is: 3.320117
+
+Input number is: 1.200000, e^-x Output Number is: 0.301194
+
+Input number is: 1.300000, e^x Output Number is: 3.669297
+
+Input number is: 1.300000, e^-x Output Number is: 0.272532
+
+Input number is: 1.400000, e^x Output Number is: 4.055200
+
+Input number is: 1.400000, e^-x Output Number is: 0.246597
+
+Input number is: 1.500000, e^x Output Number is: 4.481689
+
+Input number is: 1.500000, e^-x Output Number is: 0.223130
+
+Input number is: 1.600000, e^x Output Number is: 4.953032
+
+Input number is: 1.600000, e^-x Output Number is: 0.201897
+
+Input number is: 1.700000, e^x Output Number is: 5.473947
+
+Input number is: 1.700000, e^-x Output Number is: 0.182684
+
+Input number is: 1.800000, e^x Output Number is: 6.049647
+
+Input number is: 1.800000, e^-x Output Number is: 0.165299
+
+Input number is: 1.900000, e^x Output Number is: 6.685894
+
+Input number is: 1.900000, e^-x Output Number is: 0.149569
+
+Input number is: 2.000000, e^x Output Number is: 7.389056
+
+Input number is: 2.000000, e^-x Output Number is: 0.135335
+
+Input number is: 2.100000, e^x Output Number is: 8.166170
+
+Input number is: 2.100000, e^-x Output Number is: 0.122456
+
+Input number is: 2.200000, e^x Output Number is: 9.025013
+
+Input number is: 2.200000, e^-x Output Number is: 0.110803
+
+Input number is: 2.300000, e^x Output Number is: 9.974182
+
+Input number is: 2.300000, e^-x Output Number is: 0.100259
+
+Input number is: 2.400000, e^x Output Number is: 11.023176
+
+Input number is: 2.400000, e^-x Output Number is: 0.090718
+
+Input number is: 2.500000, e^x Output Number is: 12.182494
+
+Input number is: 2.500000, e^-x Output Number is: 0.082085
+
+Input number is: 2.600000, e^x Output Number is: 13.463738
+
+Input number is: 2.600000, e^-x Output Number is: 0.074274
+
+Input number is: 2.700000, e^x Output Number is: 14.879732
+
+Input number is: 2.700000, e^-x Output Number is: 0.067206
+
+Input number is: 2.800000, e^x Output Number is: 16.444647
+
+Input number is: 2.800000, e^-x Output Number is: 0.060810
+
+Input number is: 2.900000, e^x Output Number is: 18.174145
+
+Input number is: 2.900000, e^-x Output Number is: 0.055023
+
+Input number is: 3.000000, e^x Output Number is: 20.085537
+
+Input number is: 3.000000, e^-x Output Number is: 0.049787
+
+Input number is: 3.100000, e^x Output Number is: 22.197951
+
+Input number is: 3.100000, e^-x Output Number is: 0.045049
+
+Input number is: 3.200000, e^x Output Number is: 24.532530
+
+Input number is: 3.200000, e^-x Output Number is: 0.040762
+
+Input number is: 3.300000, e^x Output Number is: 27.112639
+
+Input number is: 3.300000, e^-x Output Number is: 0.036883
+
+Input number is: 3.400000, e^x Output Number is: 29.964100
+
+Input number is: 3.400000, e^-x Output Number is: 0.033373
+
+Input number is: 3.500000, e^x Output Number is: 33.115452
+
+Input number is: 3.500000, e^-x Output Number is: 0.030197
+
+Input number is: 3.600000, e^x Output Number is: 36.598234
+
+Input number is: 3.600000, e^-x Output Number is: 0.027324
+
+Input number is: 3.700000, e^x Output Number is: 40.447304
+
+Input number is: 3.700000, e^-x Output Number is: 0.024724
+
+Input number is: 3.800000, e^x Output Number is: 44.701184
+
+Input number is: 3.800000, e^-x Output Number is: 0.022371
+
+Input number is: 3.900000, e^x Output Number is: 49.402449
+
+Input number is: 3.900000, e^-x Output Number is: 0.020242
+
+Input number is: 4.000000, e^x Output Number is: 54.598150
+
+Input number is: 4.000000, e^-x Output Number is: 0.018316
+
+Input number is: 4.100000, e^x Output Number is: 60.340288
+
+Input number is: 4.100000, e^-x Output Number is: 0.016573
+
+Input number is: 4.200000, e^x Output Number is: 66.686331
+
+Input number is: 4.200000, e^-x Output Number is: 0.014996
+
+Input number is: 4.300000, e^x Output Number is: 73.699794
+
+Input number is: 4.300000, e^-x Output Number is: 0.013569
+
+Input number is: 4.400000, e^x Output Number is: 81.450869
+
+Input number is: 4.400000, e^-x Output Number is: 0.012277
+
+Input number is: 4.500000, e^x Output Number is: 90.017131
+
+Input number is: 4.500000, e^-x Output Number is: 0.011109
+
+Input number is: 4.600000, e^x Output Number is: 99.484316
+
+Input number is: 4.600000, e^-x Output Number is: 0.010052
+
+Input number is: 4.700000, e^x Output Number is: 109.947172
+
+Input number is: 4.700000, e^-x Output Number is: 0.009095
+
+Input number is: 4.800000, e^x Output Number is: 121.510418
+
+Input number is: 4.800000, e^-x Output Number is: 0.008230
+
+Input number is: 4.900000, e^x Output Number is: 134.289780
+
+Input number is: 4.900000, e^-x Output Number is: 0.007447
+
+Input number is: 5.000000, e^x Output Number is: 148.413159
+
+Input number is: 5.000000, e^-x Output Number is: 0.006738
+
+Input number is: 5.100000, e^x Output Number is: 164.021907
+
+Input number is: 5.100000, e^-x Output Number is: 0.006097
+
+Input number is: 5.200000, e^x Output Number is: 181.272242
+
+Input number is: 5.200000, e^-x Output Number is: 0.005517
+
+Input number is: 5.300000, e^x Output Number is: 200.336810
+
+Input number is: 5.300000, e^-x Output Number is: 0.004992
+
+Input number is: 5.400000, e^x Output Number is: 221.406416
+
+Input number is: 5.400000, e^-x Output Number is: 0.004517
+
+Input number is: 5.500000, e^x Output Number is: 244.691932
+
+Input number is: 5.500000, e^-x Output Number is: 0.004087
+
+Input number is: 5.600000, e^x Output Number is: 270.426407
+
+Input number is: 5.600000, e^-x Output Number is: 0.003698
+
+Input number is: 5.700000, e^x Output Number is: 298.867401
+
+Input number is: 5.700000, e^-x Output Number is: 0.003346
+
+Input number is: 5.800000, e^x Output Number is: 330.299560
+
+Input number is: 5.800000, e^-x Output Number is: 0.003028
+
+Input number is: 5.900000, e^x Output Number is: 365.037468
+
+Input number is: 5.900000, e^-x Output Number is: 0.002739
+
+Input number is: 6.000000, e^x Output Number is: 403.428793
+
+Input number is: 6.000000, e^-x Output Number is: 0.002479
+
+Input number is: 6.100000, e^x Output Number is: 445.857770
+
+Input number is: 6.100000, e^-x Output Number is: 0.002243
+
+Input number is: 6.200000, e^x Output Number is: 492.749041
+
+Input number is: 6.200000, e^-x Output Number is: 0.002029
+
+Input number is: 6.300000, e^x Output Number is: 544.571910
+
+Input number is: 6.300000, e^-x Output Number is: 0.001836
+
+Input number is: 6.400000, e^x Output Number is: 601.845038
+
+Input number is: 6.400000, e^-x Output Number is: 0.001662
+
+Input number is: 6.500000, e^x Output Number is: 665.141633
+
+Input number is: 6.500000, e^-x Output Number is: 0.001503
+
+Input number is: 6.600000, e^x Output Number is: 735.095189
+
+Input number is: 6.600000, e^-x Output Number is: 0.001360
+
+Input number is: 6.700000, e^x Output Number is: 812.405825
+
+Input number is: 6.700000, e^-x Output Number is: 0.001231
+
+Input number is: 6.800000, e^x Output Number is: 897.847292
+
+Input number is: 6.800000, e^-x Output Number is: 0.001114
+
+Input number is: 6.900000, e^x Output Number is: 992.274716
+
+Input number is: 6.900000, e^-x Output Number is: 0.001008
+
+Input number is: 7.000000, e^x Output Number is: 1096.633158
+
+Input number is: 7.000000, e^-x Output Number is: 0.000912
+
+Input number is: 7.100000, e^x Output Number is: 1211.967074
+
+Input number is: 7.100000, e^-x Output Number is: 0.000825
+
+Input number is: 7.200000, e^x Output Number is: 1339.430764
+
+Input number is: 7.200000, e^-x Output Number is: 0.000747
+
+Input number is: 7.300000, e^x Output Number is: 1480.299928
+
+Input number is: 7.300000, e^-x Output Number is: 0.000676
+
+Input number is: 7.400000, e^x Output Number is: 1635.984430
+
+Input number is: 7.400000, e^-x Output Number is: 0.000611
+
+Input number is: 7.500000, e^x Output Number is: 1808.042414
+
+Input number is: 7.500000, e^-x Output Number is: 0.000553
+
+Input number is: 7.600000, e^x Output Number is: 1998.195895
+
+Input number is: 7.600000, e^-x Output Number is: 0.000500
+
+Input number is: 7.700000, e^x Output Number is: 2208.347992
+
+Input number is: 7.700000, e^-x Output Number is: 0.000453
+
+Input number is: 7.800000, e^x Output Number is: 2440.601978
+
+Input number is: 7.800000, e^-x Output Number is: 0.000410
+
+Input number is: 7.900000, e^x Output Number is: 2697.282328
+
+Input number is: 7.900000, e^-x Output Number is: 0.000371
+
+Input number is: 8.000000, e^x Output Number is: 2980.957987
+
+Input number is: 8.000000, e^-x Output Number is: 0.000335
+
+Input number is: 8.100000, e^x Output Number is: 3294.468075
+
+Input number is: 8.100000, e^-x Output Number is: 0.000304
+
+Input number is: 8.200000, e^x Output Number is: 3640.950307
+
+Input number is: 8.200000, e^-x Output Number is: 0.000275
+
+Input number is: 8.300000, e^x Output Number is: 4023.872394
+
+Input number is: 8.300000, e^-x Output Number is: 0.000249
+
+Input number is: 8.400000, e^x Output Number is: 4447.066748
+
+Input number is: 8.400000, e^-x Output Number is: 0.000225
+
+Input number is: 8.500000, e^x Output Number is: 4914.768840
+
+Input number is: 8.500000, e^-x Output Number is: 0.000203
+
+Input number is: 8.600000, e^x Output Number is: 5431.659591
+
+Input number is: 8.600000, e^-x Output Number is: 0.000184
+
+Input number is: 8.700000, e^x Output Number is: 6002.912217
+
+Input number is: 8.700000, e^-x Output Number is: 0.000167
+
+Input number is: 8.800000, e^x Output Number is: 6634.244006
+
+Input number is: 8.800000, e^-x Output Number is: 0.000151
+
+Input number is: 8.900000, e^x Output Number is: 7331.973539
+
+Input number is: 8.900000, e^-x Output Number is: 0.000136
+
+Input number is: 9.000000, e^x Output Number is: 8103.083928
+
+Input number is: 9.000000, e^-x Output Number is: 0.000123
+
+Input number is: 9.100000, e^x Output Number is: 8955.292703
+
+Input number is: 9.100000, e^-x Output Number is: 0.000112
+
+Input number is: 9.200000, e^x Output Number is: 9897.129059
+
+Input number is: 9.200000, e^-x Output Number is: 0.000101
+
+Input number is: 9.300000, e^x Output Number is: 10938.019208
+
+Input number is: 9.300000, e^-x Output Number is: 0.000091
+
+Input number is: 9.400000, e^x Output Number is: 12088.380730
+
+Input number is: 9.400000, e^-x Output Number is: 0.000083
+
+Input number is: 9.500000, e^x Output Number is: 13359.726830
+
+Input number is: 9.500000, e^-x Output Number is: 0.000075
+
+Input number is: 9.600000, e^x Output Number is: 14764.781566
+
+Input number is: 9.600000, e^-x Output Number is: 0.000068
+
+Input number is: 9.700000, e^x Output Number is: 16317.607198
+
+Input number is: 9.700000, e^-x Output Number is: 0.000061
+
+Input number is: 9.800000, e^x Output Number is: 18033.744928
+
+Input number is: 9.800000, e^-x Output Number is: 0.000055
+
+Input number is: 9.900000, e^x Output Number is: 19930.370438
+
+Input number is: 9.900000, e^-x Output Number is: 0.000050
+
+Input number is: 10.000000, e^x Output Number is: 22026.465795
+
+Input number is: 10.000000, e^-x Output Number is: 0.000045
+[Inferior 1 (process 3406) exited normally]
+(gdb) quit
+]0;adam.berlak@csa2:~[adam.berlak@csa2 ~]$ exit
+exit
+
+Script done on Thu 08 Dec 2016 04:17:08 PM MST
